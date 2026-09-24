@@ -37,5 +37,6 @@ elif b == "/":
 elif b == "//":
     result = a//c
 else:
-    print("Invalid Operator")
+    result="Invalid Operator"
+
 print(result)
