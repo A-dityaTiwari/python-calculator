@@ -1,4 +1,4 @@
-# This is a mini project made by using python
+# This is a mini project made by using Python
 
 # Calculator
 #Concepts covered:
