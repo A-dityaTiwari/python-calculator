@@ -16,26 +16,26 @@
     # Enter the value and operator
     # Press enter and see results
 print("=== MINI CALCULATOR ===")
-a=int(input("Enter First Number:"))
+a=float(input("Enter First Number:"))
 b=input("Enter Operator:")
-c=int(input("Enter Second Number:"))
+c=float(input("Enter Second Number:"))
 if b == "+":
-    result = a + c
+    result = round(a + c)
 elif b == "-":
-    result = a- c
+    result = round(a - c)
 elif b == "*":
-    result = a * c
+    result = round(a * c)
 elif b == "**":
-    result = a**c
+    result = round(a**c)
 elif b == "%":
-    result = a%c
+    result = round(a%c)
 elif b == "/":
     if c == 0:
         result = "Not Defined"
     else:
-        result = a/c
+        result = round(a/c)
 elif b == "//":
-    result = a//c
+    result = round(a//c)
 else:
     result="Invalid Operator"
 
